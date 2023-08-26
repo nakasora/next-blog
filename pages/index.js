@@ -22,7 +22,11 @@ export default function Home({ allPostsData }) {
         <Head>
           <title>{siteTitle}</title>
         </Head>
-        <section className={utilStyle.headingMd}></section>
+        <section className={utilStyle.headingMd}>
+          <p>
+            私はフルスタックエンジニア→アーキリードを目指してます。現在はシンプレクスで働いています
+          </p>
+        </section>
         <section>
           <h2>エンジニアのブログ</h2>
           <div className={styles.grid}>
