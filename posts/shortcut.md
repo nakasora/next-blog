@@ -1,7 +1,11 @@
 ---
 title: "Windowsでファイルへのアクセスを1秒で行う方法"
 date: "2023-08-27"
+<<<<<<< HEAD
 thumbnail: "/images/thumbnail-shortcut.jpg"
+=======
+thumbnail: "thumbnail-shortcut.jpg"
+>>>>>>> eb7ae84 (create article)
 ---
 
 Windows を使用していて、ファイルを探す際に多くのフォルダをクリックしなければならず、時間がかかってしまうことありませんか。

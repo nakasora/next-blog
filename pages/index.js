@@ -29,9 +29,14 @@ export default function Home({ allPostsData }) {
         </Head>
         <section className={utilStyle.headingMd}>
           <ul>
+<<<<<<< HEAD
             <li>
               要件定義～運用まで経験あり。SSGでブログ作ってみようと思い超簡易的ではあるが作成。
             </li>
+=======
+            <li>私はフルスタックエンジニアです。</li>
+            <li>要件定義～運用まで経験あり。</li>
+>>>>>>> eb7ae84 (create article)
             <li>
               特に現在はフロント周りの技術と運用まで見据えたDebOpsに興味あり。
             </li>
