@@ -2,6 +2,7 @@ import Head from "next/head";
 import Layout from "../../components/Layout";
 import { getAllPostids, getPostData } from "../../lib/post";
 import utilStyle from "../../styles/utils.module.css";
+
 export async function getStaticPaths() {
   const paths = getAllPostids();
   // フォールバックfalseでないページに飛ばされたとき404エラー

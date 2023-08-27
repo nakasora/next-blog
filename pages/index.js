@@ -8,6 +8,7 @@ import Head from "next/head";
 //SSGの場合
 export async function getStaticProps() {
   const allPostsData = getPostsData();
+  console.log(allPostsData);
   return {
     props: {
       allPostsData,
@@ -20,15 +21,26 @@ export default function Home({ allPostsData }) {
     <div>
       <Layout home>
         <Head>
+          <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.17.1/themes/prism.min.css"
+            rel="stylesheet"
+          />
           <title>{siteTitle}</title>
         </Head>
         <section className={utilStyle.headingMd}>
-          <p>
-            私はフルスタックエンジニア→アーキリードを目指してます。現在はシンプレクスで働いています
-          </p>
+          <ul>
+            <li>私はフルスタックエンジニアです。</li>
+            <li>要件定義～運用まで経験あり。</li>
+            <li>
+              特に現在はフロント周りの技術と運用まで見据えたDebOpsに興味あり。
+            </li>
+            <li>現在はシンプレクスで働いています</li>
+            <li>プロフィール画像はImageCreatorで作りました</li>
+          </ul>
+          <br />
         </section>
         <section>
-          <h2>エンジニアのブログ</h2>
+          <h2>駆け出しエンジニアのブログ</h2>
           <div className={styles.grid}>
             {allPostsData.map(({ id, title, date, thumbnail }) => (
               <atricle key={id}>
