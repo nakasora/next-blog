@@ -1,7 +1,7 @@
 ---
 title: "GitのコミットエディタをVSCodeに設定する方法"
 date: "2023-08-27"
-thumbnail: "/images/thumbnail-git-vscode.jpg"
+thumbnail: "/images/thumbnail-git-editor.jpg"
 ---
 
 Git では、コミットメッセージのエディタをデフォルトのテキストエディタから好きなエディタに変更することができます。
