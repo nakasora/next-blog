@@ -44,7 +44,7 @@ export default defineConfig({
 つまり
 
 ```
-axios.get("/api")
+axios.get('/api')
 ```
 
 とソースに書くと、Vite 側で**http://localhost:3000/api**へとリクエストを転送してくれるんです。
