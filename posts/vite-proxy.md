@@ -41,11 +41,9 @@ export default defineConfig({
 ここでは、例として/api というパスの proxy を設定しています。上記のように設定すると、
 /api へのリクエストはすべて**http://localhost:3000**に転送されます。
 
-つまり
+つまり、例えば axios を用いている場合、
 
-```
-axios.get('/api')
-```
+`axios.get('/api')`
 
 とソースに書くと、Vite 側で**http://localhost:3000/api**へとリクエストを転送してくれるんです。
 
